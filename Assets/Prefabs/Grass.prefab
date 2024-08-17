@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7729978979266876468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3355816167329711757}
+  - component: {fileID: 7033002248391428027}
+  - component: {fileID: 969554074573403551}
+  m_Layer: 0
+  m_Name: Grass
+  m_TagString: Tile
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3355816167329711757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729978979266876468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7033002248391428027
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729978979266876468}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: d26611f6d4624e549858a0c829d75092, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.6, y: 1.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &969554074573403551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729978979266876468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c878759d4dca6984087111325d286a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upNeighbours:
+  - {fileID: 969554074573403551}
+  - {fileID: -31997671849395139, guid: 778e628c79cde084fa5b818b590d47b7, type: 3}
+  - {fileID: -4792977551065346479, guid: 7ef8fada1a86c0f4c814893b0398437e, type: 3}
+  - {fileID: 6605322028829385461, guid: 16a300ddcb4179c4e8076f89638af457, type: 3}
+  - {fileID: -3130772373484109885, guid: d901fadaa9f13774486a2f931f46f9b2, type: 3}
+  - {fileID: 5249292427760750019, guid: 8babde0c28b96f342be88be0ce28c754, type: 3}
+  - {fileID: 2563781936575727668, guid: d6a0ae78c9717624cbe57cb1313c0803, type: 3}
+  rightNeighbours:
+  - {fileID: 5146647298610267249, guid: f8e0db4ac54cfc64c8954b8f8406a0bf, type: 3}
+  - {fileID: 969554074573403551}
+  - {fileID: -8201661649258817175, guid: 68c9bbd717f1db7449f751bcd047f608, type: 3}
+  - {fileID: 6605322028829385461, guid: 16a300ddcb4179c4e8076f89638af457, type: 3}
+  - {fileID: -3130772373484109885, guid: d901fadaa9f13774486a2f931f46f9b2, type: 3}
+  - {fileID: 2701682007133093728, guid: b89b96ef25cb5f44eb162f391dc4e11b, type: 3}
+  - {fileID: 8601743702053793665, guid: 2e93bfd6557a31d43914b2d9f3f4bb52, type: 3}
+  downNeighbours:
+  - {fileID: 969554074573403551}
+  - {fileID: 8974720995374850840, guid: 16c15ac1e89a0534d85315ae66f0e27b, type: 3}
+  - {fileID: 7686109652088196354, guid: b405879b371318b4e8e3dd415904c312, type: 3}
+  - {fileID: -8201661649258817175, guid: 68c9bbd717f1db7449f751bcd047f608, type: 3}
+  - {fileID: -7621631566388016308, guid: 0ebcfd8bdd730c040a2956a425346abb, type: 3}
+  - {fileID: 8601743702053793665, guid: 2e93bfd6557a31d43914b2d9f3f4bb52, type: 3}
+  - {fileID: -3882524185698212605, guid: 40951e5f37a43ca47a0a07bc06800a71, type: 3}
+  leftNeighbours:
+  - {fileID: 969554074573403551}
+  - {fileID: 4920876034555019038, guid: 13d6f372cfe69ce40a8b1976d7fee780, type: 3}
+  - {fileID: 7686109652088196354, guid: b405879b371318b4e8e3dd415904c312, type: 3}
+  - {fileID: -31997671849395139, guid: 778e628c79cde084fa5b818b590d47b7, type: 3}
+  - {fileID: 5249292427760750019, guid: 8babde0c28b96f342be88be0ce28c754, type: 3}
+  - {fileID: -290690754536638928, guid: 8654b5cd4a186544fbcdaa2d16c97f5a, type: 3}
+  - {fileID: -3882524185698212605, guid: 40951e5f37a43ca47a0a07bc06800a71, type: 3}
+  upType: Grass
+  rightType: Grass
+  downType: Grass
+  leftType: Grass

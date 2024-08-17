@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3239585107043325808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239602014198152242}
+  - component: {fileID: 5862386073128542558}
+  - component: {fileID: 3904792355200753244}
+  m_Layer: 0
+  m_Name: DirtRoadUpRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1239602014198152242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239585107043325808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.450291, y: -2.4397922, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5862386073128542558
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239585107043325808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 27b574298ff68ab41b83d8d8d8f9f0a4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3904792355200753244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239585107043325808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c878759d4dca6984087111325d286a8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upNeighbours:
+  - {fileID: -3675138695635620827, guid: e218d4a96cf2f134e909704d7474c309, type: 3}
+  - {fileID: 8326405407104598820, guid: 3faf3da0eb2d5d1438d3ffbb0eefceb2, type: 3}
+  - {fileID: 7954120083123220327, guid: 47e58d2736e58de4fb7ef24d32e398e1, type: 3}
+  - {fileID: -4760393657945862604, guid: 3976c42afbfe4b54d8ea5d8b4c9295e9, type: 3}
+  - {fileID: 6994484529464767159, guid: 54a89a1ccb0d55f468e083e1a44cddbb, type: 3}
+  - {fileID: 3867841808394195825, guid: 1b223740baaf2b0419347a4509d9d132, type: 3}
+  - {fileID: 2634507390063034902, guid: e49de637de1b078439bb78b5b47d699e, type: 3}
+  - {fileID: 3330430842030341160, guid: 54c980cc8f7f93f4c840d736bedb23bf, type: 3}
+  - {fileID: 2520040220981823126, guid: 7dd1cac4f219d4d4d92c32a9285b6f4d, type: 3}
+  rightNeighbours:
+  - {fileID: 2634507390063034902, guid: e49de637de1b078439bb78b5b47d699e, type: 3}
+  downNeighbours:
+  - {fileID: 8519339935147512067, guid: 9dc1de9ce88feb94aa31f3c1c4ae2da1, type: 3}
+  leftNeighbours:
+  - {fileID: 8326405407104598820, guid: 3faf3da0eb2d5d1438d3ffbb0eefceb2, type: 3}
+  - {fileID: 6994484529464767159, guid: 54a89a1ccb0d55f468e083e1a44cddbb, type: 3}
+  - {fileID: -3606588606620889364, guid: 68aa63b5c723a4d41afc785079eb2050, type: 3}
+  - {fileID: 1870695080807776479, guid: 1afb6726337f98042bfd68b1022c2617, type: 3}
+  - {fileID: 8519339935147512067, guid: 9dc1de9ce88feb94aa31f3c1c4ae2da1, type: 3}
+  - {fileID: 6362519754388824043, guid: 7daff69356e336644947dcd5c4fb8344, type: 3}
+  - {fileID: 2520040220981823126, guid: 7dd1cac4f219d4d4d92c32a9285b6f4d, type: 3}
+  upType: Dirt
+  rightType: Road
+  downType: Road
+  leftType: Dirt
